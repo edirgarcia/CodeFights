@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Arrays
 {
+
+
+    /*
+     * 
+            FirstNonReaptingChar f = new FirstNonReaptingChar();
+            f.firstNotRepeatingCharacter("bcccccccccccccyb");
+     */
     class FirstNonReaptingChar
     {
         public char firstNotRepeatingCharacter(string s)

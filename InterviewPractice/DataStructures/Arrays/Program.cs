@@ -10,8 +10,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            FirstNonReaptingChar f = new FirstNonReaptingChar();
-            f.firstNotRepeatingCharacter("bcccccccccccccyb");
+            Utils.PrintArray(Utils.GetSampleSquareMatrix(3));
         }
     }
 }
