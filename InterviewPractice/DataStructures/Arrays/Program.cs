@@ -10,6 +10,8 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
+            FirstNonReaptingChar f = new FirstNonReaptingChar();
+            f.firstNotRepeatingCharacter("bcccccccccccccyb");
         }
     }
 }
