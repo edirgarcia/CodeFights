@@ -9,7 +9,7 @@ namespace Arrays
     class RotateImage
     {
 
-        publicint[][] rotateImage(int[][] a)
+        public int[][] rotateImage(int[][] a)
         {
             for (int i = 0; i < a.Length / 2; i++)
             {
