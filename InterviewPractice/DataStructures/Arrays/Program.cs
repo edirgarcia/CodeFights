@@ -10,7 +10,8 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            Utils.PrintArray(Utils.GetSampleSquareMatrix(3));
+            Sudoku s = new Arrays.Sudoku();
+            Console.Out.WriteLine(s.sudoku2(Utils.GetSampleSudoku()));
         }
     }
 }

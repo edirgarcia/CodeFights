@@ -47,6 +47,8 @@
     <Compile Include="FirstDuplicate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RotateImage.cs" />
+    <Compile Include="Sudoku.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
