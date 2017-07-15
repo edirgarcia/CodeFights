@@ -10,8 +10,8 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            Sudoku s = new Arrays.Sudoku();
-            Console.Out.WriteLine(s.sudoku2(Utils.GetSampleSudoku()));
+            IsCryptSolution ics = new IsCryptSolution();
+            bool ret = ics.isCryptSolution(new string[3] { "TEN", "TWO", "ONE" }, Utils.GetCryparithm());
         }
     }
 }
