@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="FirstNonReaptingChar.cs" />
     <Compile Include="FirstDuplicate.cs" />
+    <Compile Include="IsCryptSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RotateImage.cs" />

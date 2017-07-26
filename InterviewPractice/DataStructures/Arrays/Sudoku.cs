@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Arrays
 {
+
+    /*
+            Sudoku s = new Arrays.Sudoku();
+            Console.Out.WriteLine(s.sudoku2(Utils.GetSampleSudoku()));
+            */
+
     class Sudoku
     {
         public bool sudoku2(char[][] grid)

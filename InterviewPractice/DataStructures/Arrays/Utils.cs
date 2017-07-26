@@ -52,5 +52,17 @@ namespace Arrays
          new char[9] {'.','.','.','5','.','.','.','7','.'}};
 
         }
+
+        public static char[][] GetCryparithm()
+        {
+            return new char[][]
+            {
+                new char[2]{'O','1'},
+                new char[2]{'T','0'},
+                new char[2]{'W','9'},
+                new char[2]{'E','5'},
+                new char[2]{'N','4'}
+            };
+        }
     }
 }
