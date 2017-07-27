@@ -8,7 +8,6 @@ namespace LinkedLists
 {
     class RemoveKFromList
     {
-
         ListNode<int> removeKFromList(ListNode<int> l, int k)
         {
             ListNode<int> curr = l;
