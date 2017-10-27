@@ -10,5 +10,21 @@ namespace LinkedLists
     {
         public T value { get; set; }
         public ListNode<T> next { get; set; }
+
+        public static ListNode<int> GetLinkedList(int[] arr)
+        {
+            ListNode<int> head = null;
+            for(int i = arr.Length-1; i >=0 ; i--)
+            {
+                ListNode<int> tmp = new ListNode<int>();
+                tmp.value = arr[i];
+                tmp.next = head;
+                head = tmp;
+            }
+
+            return head;
+        }
     }
+
+
 }
