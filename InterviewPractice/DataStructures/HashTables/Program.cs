@@ -6,25 +6,15 @@ namespace HashTables
     {
         static void Main(string[] args)
         {
+            string[] strings0 = {"cat", "dog", "dog"};
+            string[] strings1 = { "cat", "dog", "doggy" };
+            string[] patterns = { "a", "b", "b" };
 
-            string[][] dishes =
-            {
-                new string[] {"Salad", "Tomato", "Cucumber", "Salad", "Sauce"},
-                new string[] {"Pizza", "Tomato", "Sausage", "Sauce", "Dough"},
-                new string[] {"Quesadilla", "Chicken", "Cheese", "Sauce"},
-                new string[] {"Sandwich", "Salad", "Bread", "Tomato", "Cheese"}
-            };
-
-            string str1 = "EximjeTCXsmDxOPaklH";
-            string str2 = "E";
+            FollowingPatterns fp = new FollowingPatterns();
             
-            Lexico l = new Lexico();
-            
-            Console.Out.WriteLine(l.Compare(str1,str2));
+            Console.Out.WriteLine(fp.areFollowingPatterns(strings0, patterns));
+            Console.Out.WriteLine(fp.areFollowingPatterns(strings1, patterns));
 
-            GrouppingDishes gd = new GrouppingDishes();
-    
-            gd.groupingDishes(dishes);
         }
     }
 }
