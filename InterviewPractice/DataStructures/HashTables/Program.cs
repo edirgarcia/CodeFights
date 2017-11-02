@@ -6,14 +6,11 @@ namespace HashTables
     {
         static void Main(string[] args)
         {
-            string[] strings0 = {"cat", "dog", "dog"};
-            string[] strings1 = { "cat", "dog", "doggy" };
-            string[] patterns = { "a", "b", "b" };
+            CloseNums cn = new CloseNums();
 
-            FollowingPatterns fp = new FollowingPatterns();
-            
-            Console.Out.WriteLine(fp.areFollowingPatterns(strings0, patterns));
-            Console.Out.WriteLine(fp.areFollowingPatterns(strings1, patterns));
+            Console.Out.WriteLine(cn.containsCloseNums(new int[] {0, 1, 2, 3, 5, 2}, 3));
+
+            Console.Out.WriteLine(cn.containsCloseNums(new int[] { 0, 1, 2, 3, 5, 2 }, 2));
 
         }
     }

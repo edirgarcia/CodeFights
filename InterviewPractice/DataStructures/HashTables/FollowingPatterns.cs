@@ -4,6 +4,16 @@ using System.Text;
 
 namespace HashTables
 {
+
+//string[] strings0 = { "cat", "dog", "dog" };
+//string[] strings1 = { "cat", "dog", "doggy" };
+//string[] patterns = { "a", "b", "b" };
+
+//FollowingPatterns fp = new FollowingPatterns();
+
+//Console.Out.WriteLine(fp.areFollowingPatterns(strings0, patterns));
+//Console.Out.WriteLine(fp.areFollowingPatterns(strings1, patterns));
+
     public class FollowingPatterns
     {
        public bool areFollowingPatterns(string[] strings, string[] patterns)
