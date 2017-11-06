@@ -9,6 +9,10 @@ namespace LinkedLists
     class IsListPalindrome
     {
 
+        //ListNode<int> l = ListNode<int>.GetLinkedList(new int[] { 1, 2, 3, 2, 1 });
+
+        //IsListPalindrome ilp = new IsListPalindrome();
+        //ilp.isListPalindrome(l);
         public bool isListPalindrome(ListNode<int> l)
         {
 

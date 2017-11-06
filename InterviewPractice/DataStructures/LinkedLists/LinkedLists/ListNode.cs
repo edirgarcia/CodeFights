@@ -14,7 +14,7 @@ namespace LinkedLists
         public static ListNode<int> GetLinkedList(int[] arr)
         {
             ListNode<int> head = null;
-            for(int i = arr.Length-1; i >=0 ; i--)
+            for (int i = arr.Length - 1; i >= 0; i--)
             {
                 ListNode<int> tmp = new ListNode<int>();
                 tmp.value = arr[i];
@@ -23,6 +23,19 @@ namespace LinkedLists
             }
 
             return head;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            ListNode<T> curr = this;
+            while (curr != null)
+            {
+                sb.Append(curr.value + " ");
+                curr = curr.next;
+            }
+
+            return sb.ToString();
         }
     }
 

@@ -11,11 +11,12 @@ namespace LinkedLists
 
         static int Main(string[] args)
         {
+            Merge m = new Merge();
+            ListNode<int> l1 = ListNode<int>.GetLinkedList(new int[] {1,1,2,4});
+            ListNode<int> l2 = ListNode<int>.GetLinkedList(new int[] { 0, 3, 5 });
 
-            ListNode<int> l = ListNode<int>.GetLinkedList(new int[] { 1, 2, 3, 2, 1 });
+            Console.Out.WriteLine(m.mergeTwoLinkedLists(l1, l2));
 
-            IsListPalindrome ilp = new IsListPalindrome();
-            ilp.isListPalindrome(l);
 
             return 0;
         }
